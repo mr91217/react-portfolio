@@ -1,35 +1,55 @@
-import React from 'react';
-// import { HashRouter as Router, Switch, Route } from 'react-router-dom';
-// import './assets/css/bootstrap.min.css';
-// import './assets/css/bootstrap-theme.min.css';
-// import './assets/css/fontAwesome.css';
-// import './assets/css/tooplate-style.css';
-
-
+import React, { useState } from 'react';
 import Nav from './components/Nav';
+import Home from './components/Home';
 import About from './components/About';
-// import ContactForm from './components/Contact';
-// import Portfolio from './components/Project';
-// import Resume from './components/Resume';
-// import Footer from './components/Footer'
+import Project from './components/Project';
+import ContactForm from './components/Contact';
+import Skill from './components/Skill';
+import Footer from './components/Footer';
+
 
 function App() {
+  const [categories] = useState([
+    
+
+    // {
+    //   name: 'commercial',
+    //   description: 'Photos of grocery stores, food trucks, and other commercial projects',
+    // },
+    // { name: 'portraits', description: 'Portraits of people in my life' },
+    // { name: 'food', description: 'Delicious delicacies' },
+    // { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+    { name: 'projects', description: 'Note-Taker, Beer-me, balabala' },
+    // { name: 'skill', description: 'HTML, CSS, JavaScript, React, node, Express, MySQL' },
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+  const [contactSelected, setContactSelected] = useState(false);
+
   return (
-    // <Router>
-    //   <Nav></Nav>
-    //   <Switch>
-    //     <Route exact path="/" component={About} />
-    //     <Route exact path="/portfolio" component={Portfolio} />
-    //     <Route exact path="/resume" component={Resume} />
-    //     <Route exact path="/contact" component={ContactForm} />
-    //   </Switch>
-    //   <Footer />
-    // </Router>
     <div>
-    <Nav></Nav>
-    <main>
-    <About></About>
-    </main>
+      <Nav
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Nav>
+      <main>
+        {!contactSelected ? (
+          <>
+            <Home></Home>
+            <About></About>
+            <Skill></Skill>
+            <Project currentCategory={currentCategory}></Project>
+
+          </>
+        ) : (
+          <ContactForm></ContactForm>
+        )}
+      </main>
+      <Footer></Footer>
     </div>
   );
 }

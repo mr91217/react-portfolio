@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import '../../assets/css/nav.css';
 
 function Nav(props) {
   const {
@@ -18,14 +19,24 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+          <span role="img" aria-label="computer"> </span> CYC
         </a>
       </h2>
       <nav> 
-        <ul className="flex-row">
+        <ul className="navbar flex-row">
+        <li className="mx-2">
+            <a data-testid="home" href="#home-section" onClick={() => setContactSelected(false)}>
+              Home
+            </a>
+          </li>
           <li className="mx-2">
             <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
               About me
+            </a>
+          </li>
+          <li className="mx-2">
+            <a data-testid="skill" href="#skill" onClick={() => setContactSelected(false)}>
+              Skill
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
