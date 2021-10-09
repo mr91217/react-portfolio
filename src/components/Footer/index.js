@@ -18,7 +18,7 @@ function Footer() {
                         <img className="contact-icon"
                         src={github} style={{ width: "10%" }} alt="github_icon" />
                     </a>
-                    <a href="https://www.linkedin.com/in/kuanyilee85/" id="linkedin-link" >
+                    <a href="https://www.linkedin.com/in/chunyu-chang-9613a920a/" id="linkedin-link" >
                         <img
                         className="contact-icon" src={linkin} style={{ width: "10%" }} alt="linkedin_icon" />
                     </a>
