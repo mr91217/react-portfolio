@@ -16,7 +16,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 ## Description
   This portfolio was created by React
 ## GitHub_Link
-[Click me](https://mr91217.github.io/react-portfolio/ )
+[Click me](https://mr91217.github.io/react-portfolio/)
 ## Screenshot
 ![react-portfolio](./src/assets/img/reactportfolio.GIF)
 ## Table of Contents
