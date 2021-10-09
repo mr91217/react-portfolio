@@ -19,7 +19,7 @@ function App() {
     // { name: 'portraits', description: 'Portraits of people in my life' },
     // { name: 'food', description: 'Delicious delicacies' },
     // { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-    { name: 'projects', description: 'Note-Taker, Beer-me, balabala' },
+    { name: 'projects', description: 'Note-Taker, Beer-me, The Tech Blog,.......Keep Updating!!!' },
     // { name: 'skill', description: 'HTML, CSS, JavaScript, React, node, Express, MySQL' },
   ]);
 

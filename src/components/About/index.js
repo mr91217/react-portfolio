@@ -1,6 +1,6 @@
 import React from 'react';
 import program from '../../assets/img/skills/programming.png';
-
+import resume from '../../assets/resume/ChunYu-Chang.pdf';
 
 
 function About() {
@@ -11,7 +11,11 @@ function About() {
       <div className="my-2">
         
         <p>Frontend: React | HTML | CSS | JavaScript | </p>
-        <p>Backend: Java | SpringBoot | Maven | Node | Express | MySQL | Git | Azure</p>
+        <p>Backend: Node | Express | MySQL | Git | NoSQL |</p>
+      </div>
+      <div>
+        <a href = {resume} target='_blank' rel="noreferrer">Download my resume</a>
+
       </div>
     </section>
   );
