@@ -27,6 +27,8 @@ function Skill() {
       <img src={mysql} className="my-2" style={{ width: "20%" }} alt="mysql" />
       <img src={node} className="my-2" style={{ width: "20%" }} alt="node" />
       <img src={express} className="my-2" style={{ width: "20%" }} alt="express" />
+      <span id="plink"></span>
+
       </div>
 
       

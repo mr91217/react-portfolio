@@ -30,7 +30,7 @@ function App() {
   return (
     <div>
       <Nav
-        categories={categories}
+        // categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
         contactSelected={contactSelected}
