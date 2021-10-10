@@ -55,6 +55,7 @@ const ProjectList = ({ category }) => {
           <li>1.<a href="https://secure-temple-27140.herokuapp.com/">Note Taker</a></li>
           <li>2.<a href="https://jamart01.github.io/Project-1-Beer-Me/">Beer Me</a></li>
           <li>3.<a href="https://dry-caverns-77370.herokuapp.com/">The Tech Blog</a></li>
+          <li>4.<a href="https://guarded-tor-09060.herokuapp.com/">nerdBoard</a></li>
           </ul>
         </div>
       {isModalOpen && <Modal onClose={toggleModal} currentPhoto={currentPhoto} />}
