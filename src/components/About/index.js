@@ -9,7 +9,7 @@ function About() {
       <h1 id="about">About me</h1>
       <img src={program} className="my-2" style={{ width: "20%" }} alt="cover" />
       <div className="my-2">
-        
+        <h1>Web Developer</h1>
         <p>Frontend: React | HTML | CSS | JavaScript | </p>
         <p>Backend: Node | Express | MySQL | Git | NoSQL |</p>
       </div>
