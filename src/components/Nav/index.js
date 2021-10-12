@@ -20,7 +20,7 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
+        <a data-testid="home" href="#home-section">
           <span role="img" aria-label="computer"> </span> CYC
         </a>
       </h2>
