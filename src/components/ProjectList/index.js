@@ -38,6 +38,11 @@ const ProjectList = ({ category }) => {
         category: 'projects',
         description: 'A node.js application that uses user input from inquirer to populate a HTML file for user. The HTML file is created in the dist directory',
       },
+      {
+        name: 'Shop-Shop',
+        category: 'projects',
+        description: 'This commercial application is created by React with cart, payment functions.',
+      },
   ]);
 
   const currentPhotos = photos.filter((photo) => photo.category === category);
@@ -56,6 +61,10 @@ const ProjectList = ({ category }) => {
           <li>2.<a href="https://jamart01.github.io/Project-1-Beer-Me/">Beer Me</a></li>
           <li>3.<a href="https://dry-caverns-77370.herokuapp.com/">The Tech Blog</a></li>
           <li>4.<a href="https://guarded-tor-09060.herokuapp.com/">nerdBoard</a></li>
+          <li>5.<a href="https://github.com/mr91217/Weather-Dashboard">Wheather Dashboard</a></li>
+          <li>6.<a href="https://github.com/mr91217/Team-Profile-Generator">The Team Generator</a></li>
+          <li>7.<a href="https://damp-gorge-13767.herokuapp.com/">Shop-Shop</a></li>
+          <li>8.<a href="https://github.com/mr91217/TalkTalk">TalkTalk</a></li>
           </ul>
         </div>
       {isModalOpen && <Modal onClose={toggleModal} currentPhoto={currentPhoto} />}
