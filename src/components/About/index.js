@@ -1,6 +1,6 @@
 import React from 'react';
 import program from '../../assets/img/skills/programming.png';
-import resume from '../../assets/resume/ChunYu-Chang.pdf';
+import resume from '../../assets/resume/ChunYu-Chang-front-end.pdf';
 
 
 function About() {
