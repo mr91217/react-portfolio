@@ -26,7 +26,7 @@ function Footer() {
                     id="envelope-link">
                     <img className="contact-icon" src={envelope} style={{width:"10%"}} alt="envelope_icon" />
                     </a>
-                    <p>Thank you for visiting! Last update: October 2021</p>
+                    <p>Thank you for visiting! Last update: September 2024</p>
                 </div>
             </div>
         </div>
