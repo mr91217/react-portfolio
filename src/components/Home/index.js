@@ -12,7 +12,7 @@ function About() {
         <div className="row">
           <div className="col text-center py-5">
             <h1 className="display-4">ChunYu Chang</h1>
-            <h2 className="display-5">Software Developer · JavaScript Web Developer</h2>
+            <h2 className="display-5">Java Full Stack Developer · JavaScript Web Developer</h2>
           </div>
         </div>
       </div>

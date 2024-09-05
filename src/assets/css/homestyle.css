@@ -21,6 +21,10 @@
     font-size: 3vw;
     bottom: 0%;
 }
+h1, h2 {
+  position: relative; /* 设置位置为相对 */
+  z-index: 1;         /* 设置 z-index 为较低的值 */
+}
 
 @media screen and (max-width: 980px) {
     header {

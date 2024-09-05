@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import '../../assets/css/nav.css';
-import resume from '../../assets/resume/ChunYu-Chang-front-end.pdf';
+import resume from '../../assets/resume/ChunYuChang-Web-Developer.pdf';
 
 
 function Nav(props) {

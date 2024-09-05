@@ -6,6 +6,11 @@ import css3 from '../../assets/img/skills/css3.png'
 import mysql from '../../assets/img/skills/mysql.png'
 import node from '../../assets/img/skills/node.png'
 import express from '../../assets/img/skills/express.png'
+import springboot from '../../assets/img/skills/springboot.png'
+import java from '../../assets/img/skills/java.png'
+import thymeleaf from '../../assets/img/skills/thymeleaf.png'
+import maven from '../../assets/img/skills/maven.png'
+
 
 
 
@@ -21,12 +26,17 @@ function Skill() {
       <h1 id="skill">Skills</h1>
       <div className="flex-container row-hl d-flex justify-content-around">
       <img src={reactimg} className="my-2" style={{ width: "20%" }} alt="react" />
+      <img src={springboot} className="my-2" style={{ width: "20%" }} alt="springboot" />
       <img src={javascript} className="my-2" style={{ width: "20%" }} alt="javascript" />
+      <img src={java} className="my-2" style={{ width: "20%" }} alt="java" />
       <img src={html5} className="my-2" style={{ width: "20%" }} alt="html5" />
       <img src={css3} className="my-2" style={{ width: "20%" }} alt="css3" />
       <img src={mysql} className="my-2" style={{ width: "20%" }} alt="mysql" />
       <img src={node} className="my-2" style={{ width: "20%" }} alt="node" />
       <img src={express} className="my-2" style={{ width: "20%" }} alt="express" />
+      <img src={thymeleaf} className="my-2" style={{ width: "20%" }} alt="thymeleaf" />
+      <img src={maven} className="my-2" style={{ width: "20%" }} alt="maven" />
+
       <span id="plink"></span>
 
       </div>
