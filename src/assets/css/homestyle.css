@@ -22,8 +22,8 @@
     bottom: 0%;
 }
 h1, h2 {
-  position: relative; /* 设置位置为相对 */
-  z-index: 1;         /* 设置 z-index 为较低的值 */
+  position: relative;
+  z-index: 1;
 }
 
 @media screen and (max-width: 980px) {

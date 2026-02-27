@@ -1,5 +1,4 @@
 import React from 'react';
-// import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import linkin from '../../assets/img/linkedin.png';
 import github from '../../assets/img/github.png';
 import envelope from '../../assets/img/email.png';

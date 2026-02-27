@@ -3,7 +3,7 @@ import '../../assets/css/homestyle.css';
 
 
 
-function About() {
+function Home() {
   return (
     
     <section id="home-section">
@@ -21,4 +21,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;
